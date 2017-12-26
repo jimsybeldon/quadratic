@@ -16,3 +16,4 @@ while(True):
 	value.put('D13', str(secondLight))
 	sleep(5)
 	print([firstLight, secondLight])
+	print('MATT IS THE BEST DAISY IS THE WORST')
