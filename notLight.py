@@ -9,5 +9,5 @@ value = bridgeclient()
 firstLight = 0
 
 while(True):
-	firstLight = int(input('Input 0 or 1: '))
+	firstLight = input('Input 0 or 1: ') & 1
 	value.put('D13', str(firstLight))
